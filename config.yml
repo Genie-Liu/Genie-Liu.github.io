@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://genie-liu.github.io/"
 title: Jianshi's Blog
 paginate.pagerSize: 5
 theme: PaperMod
@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jianshi's Blog
-  description: "This is the site to document my learning"
+  description: "This is the site to document my learnings."
   keywords: [Blog, Portfolio, PaperMod]
   author: Jianshi Liu
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -58,7 +58,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Jianshi's Blog
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -74,7 +74,7 @@ params:
   homeInfoParams:
     Title: "\U0001F44B Welcome to Jianshi's Blog"
     Content: >
-      This is the site to document my learning.
+      This is the site to document my learnings.
 
   socialIcons:
     - name: Github
@@ -115,18 +115,11 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: posts
+      name: posts
+      url: /posts/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
