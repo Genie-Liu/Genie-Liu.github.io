@@ -1,5 +1,5 @@
 baseURL: "https://genie-liu.github.io/"
-title: Jianshi's Blog
+title: Jianshi Liu # shown in the footnote
 paginate.pagerSize: 5
 theme: PaperMod
 
@@ -98,7 +98,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/Genie-Liu/Genie-Liu.github.io/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

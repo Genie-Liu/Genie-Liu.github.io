@@ -2,7 +2,6 @@
 date: '2025-01-03T13:41:47+08:00'
 draft: false
 title: 'Build Your Own Blog Site using Hugo & PaperMod'
-author: Jianshi Liu
 ---
 
 ### Install Hugo
