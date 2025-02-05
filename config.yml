@@ -7,8 +7,9 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+hasCJKLanguage: true # has chinese/japanese/korean ?
 
-googleAnalytics: UA-123-45
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -51,7 +52,7 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Jianshi's Blog"
+    text: "Home"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -75,14 +76,6 @@ params:
     Title: "\U0001F44B Welcome to Jianshi's Blog"
     Content: >
       This is the site to document my learnings.
-
-  socialIcons:
-    - name: Github
-      url: "https://github.com/Genie-Liu"
-    - name: x
-      url: "https://x.com/JesenGenie"
-    - name: zhihu
-      url: "https://www.zhihu.com/people/jianshi-liu"
 
   # analytics:
   #   google:
@@ -113,6 +106,8 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
+defaultContentLanguageInSubdir: true
+defaultContentLanguage: en
 menu:
   main:
     - identifier: posts
@@ -122,6 +117,76 @@ menu:
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
+languages:
+  en:
+    languageName: "English"
+    subtitle: "Yet Another Programming Blog"
+    weight: 1
+    contentDir: 'content/en'
+    socialIcons:
+      - name: Github
+        url: "https://github.com/Genie-Liu"
+      - name: x
+        url: "https://x.com/JesenGenie"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/jianshi-liu-28a08aa0/"
+      - name: zhihu
+        url: "https://www.zhihu.com/people/jianshi-liu"
+      - name: RSS
+        url: "/en/index.xml"
+    menu:
+      main:
+        - name: Archives
+          url: /archives/
+          weight: 1
+        - name: Search
+          url: /search/
+          weight: 10
+        - name: Tags
+          url: /tags/
+          weight: 30
+        - name: About
+          url: /about_me
+          weight: 40
+        - name: RSS
+          url: /en/index.xml
+          weight: 50
+  zh:
+    title: "孺子牛"
+    languageName: "中文"
+    subtitle: "孺子牛"
+    contentDir: 'content/zh'
+    weight: 2
+    socialIcons:
+      - name: Github
+        url: "https://github.com/Genie-Liu"
+      - name: x
+        url: "https://x.com/JesenGenie"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/jianshi-liu-28a08aa0/"
+      - name: zhihu
+        url: "https://www.zhihu.com/people/jianshi-liu"
+      - name: RSS
+        url: "/zh/index.xml"
+
+    menu:
+      main:
+        - name: "归档"
+          url: zh/archives/
+          weight: 9
+        - name: "搜索"
+          url: zh/search/
+          weight: 10
+        - name: "标签"
+          url: zh/tags/
+          weight: 30
+        - name: "关于"
+          url: zh/about_me_zh/
+          weight: 40
+        - name: RSS
+          url: "/zh/index.xml"
+          weight: 50
+
 markup:
   highlight:
     noClasses: false
