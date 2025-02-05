@@ -1,7 +1,8 @@
 ---
-date: '2025-02-05T21:22:12+08:00'
+date: "2025-01-24T10:50:16+08:00"
 draft: false
 title: 'Tips for Your Privacy'
+tags: ["blog", "learn", "privacy"]
 ---
 
 Here are some tips, based on my experience, for safeguarding your privacy
