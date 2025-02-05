@@ -37,7 +37,10 @@ hugo new content content/posts/<datetime>-my-first-post.md
 
 ## Deploy to Github
 
+[Ref](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+
 1. Create personal page repository. `<github-name>/<github-name>.github.io`
+
 2. Link the site direcotry to github repository.
 
     `git remote add origin git@github.com:<github-name>/<github-name>.github.io.git`
