@@ -57,5 +57,5 @@ Now you can enjoy testing your webpage: `https://\<github-name\>.github.io/`
 - [quick-start of hugo](https://gohugo.io/getting-started/quick-start/)
 - [Example site of PaperMod theme](https://adityatelange.github.io/hugo-PaperMod/)
 - [hugo-PaperMod/wiki](https://github.com/adityatelange/hugo-PaperMod/wiki)
-- [Deployment](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+- [Deployment on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 - [ramsayleung's blog code](https://github.com/ramsayleung/ramsayleung.github.io)
