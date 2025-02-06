@@ -21,6 +21,9 @@ params:
   description: "This is the site to document my learnings."
   keywords: [Blog, Portfolio, PaperMod]
   author: Jianshi Liu
+
+  footer:
+    enable: true
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -75,7 +78,7 @@ params:
   homeInfoParams:
     Title: "\U0001F44B Welcome to Jianshi's Blog"
     Content: >
-      This is the site to document my learnings.
+      This is the site to document my learnings. All content on this blog is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
   # analytics:
   #   google:
@@ -115,6 +118,7 @@ menu:
       url: /posts/
       weight: 10
 
+copyright: "©2025 [Jianshi Liu](https://genie-liu.github.io/) | Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 languages:
@@ -172,7 +176,7 @@ languages:
       homeInfoParams:
         Title: "\U0001F44B 欢迎来到Jianshi的博客"
         Content: >
-          这里记录了我的工作、学习的内容，希望能够对你有所帮助。
+          这里记录了我的工作、学习的内容，希望能够对你有所帮助。本博客上的所有内容均采用 [创意共享 署名 4.0 国际 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) 许可协议。
     menu:
       main:
         - name: 归档
