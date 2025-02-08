@@ -35,6 +35,36 @@ hugo new content content/posts/<datetime>-my-first-post.md
 
 [Github Project](https://github.com/adityatelange/hugo-PaperMod)
 
+**Change CSS style**,  take blockquote as example:
+
+- Create css assets: /static/css/styles.css
+  ```css
+  blockquote {
+    color: gray !important;  /* Overrides any existing color */
+    border-left: 4px solid #ccc;  /* Optional: Adds a subtle left border */
+    padding-left: 10px;  /* Optional: Adds some padding to the left */
+  }
+  ```
+- Add path to config.yml
+  ```yml
+  params:
+    customCSS:
+      - "/css/styles.css"
+  ```
+- Copy and modify layout: copy `themes/PaperMod/layouts/_default/baseof.html` to your layouts direcotry
+  ```html
+  <head>
+    <!-- Other head content like meta tags, title, etc. -->
+
+    {{ with .Site.Params.customCSS }}
+        {{ range . }}
+            <link rel="stylesheet" href="{{ . | relURL }}">
+        {{ end }}
+    {{ end }}
+
+  </head>
+  ```
+
 ## Deploy to Github
 
 [Ref](https://gohugo.io/hosting-and-deployment/hosting-on-github/)

@@ -1,0 +1,5 @@
+blockquote {
+    color: gray !important;  /* Overrides any existing color */
+    border-left: 4px solid #ccc;  /* Optional: Adds a subtle left border */
+    padding-left: 10px;  /* Optional: Adds some padding to the left */
+}

@@ -16,6 +16,7 @@ minify:
   minifyOutput: true
 
 params:
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jianshi's Blog
   description: "This is the site to document my learnings."
@@ -53,7 +54,8 @@ params:
     # favicon32x32: "<link / abs url>"
     # apple_touch_icon: "<link / abs url>"
     # safari_pinned_tab: "<link / abs url>"
-
+  customCSS:
+    - "/css/custom.css"
   label:
     text: "Home"
     icon: /apple-touch-icon.png
@@ -134,8 +136,6 @@ languages:
         url: "https://x.com/JesenGenie"
       - name: linkedin
         url: "https://www.linkedin.com/in/jianshi-liu-28a08aa0/"
-      - name: zhihu
-        url: "https://www.zhihu.com/people/jianshi-liu"
       - name: RSS
         url: "/en/index.xml"
     menu:
