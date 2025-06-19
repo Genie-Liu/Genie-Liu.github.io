@@ -3,7 +3,7 @@ title:      "解决Delta模拟器与RetroArch存档不一致问题的记录"
 date:       2025-06-19T09:00:38+08:00
 tags:       ["learn"]
 identifier: "20250619T090038"
-draft: true
+draft: false
 ---
 
 ### 解决Delta模拟器与RetroArch存档不一致问题的记录
