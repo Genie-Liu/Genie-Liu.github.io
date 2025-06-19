@@ -12,7 +12,7 @@ tags: ["blog", "learn", "privacy"]
 没想到泄露隐私最大的隐患居然是输入法。现在国内手机默认自带的输入法都是
 自家特供的云输入法，默认跟你的账号绑定，上传你的输入。这就是所谓的
 keylogging，所以保护隐私的第一步就是把你手机的云输入法替换成离线，开源
-的输入法。不考虑开源的话Android可以选Google的输入法，iOS实用默认的即可。
+的输入法。不考虑开源的话Android可以选Google的输入法，iOS使用默认的即可。
 
 ## 密码管理器
 
@@ -43,7 +43,7 @@ keylogging，所以保护隐私的第一步就是把你手机的云输入法替�
 它。
 
 不过话说回来，国内的网站基本上都是通过短信来进行验证。所以
-Authenticator基本上用在一些国外网站。
+Authenticator 基本上用在一些国外网站。
 
 ## 浏览器与搜索引擎
 
@@ -64,9 +64,10 @@ Authenticator基本上用在一些国外网站。
 的应用，并且尽量避免收集元数据的App.
 
 然而，应用的选择不仅取决于你自身，还受限于你的通讯对象。我个人推荐
-Signal 和 Session，它们不仅实现了端到端加密（E2EE），还避免了像
-WhatsApp 这类由大公司掌控的应用可能存储元数据的问题。此外，WhatsApp 还
-容易通过手机号将你的账号与 Facebook 和 Instagram 关联，进一步侵蚀隐私。
+Signal (需要梯子) 和 Session (走的区块链网络服务节点，不容易被封)，它
+们不仅实现了端到端加密（E2EE），还避免了像WhatsApp 这类由大公司掌控的
+应用可能存储元数据的问题。此外，WhatsApp 还容易通过手机号将你的账号与
+Facebook 和 Instagram 关联，进一步侵蚀隐私。
 
 不过，在国内，由于大多数 E2EE 应用被屏蔽，对于苹果用户来说，iMessage
 可能是为数不多的选择之一。
@@ -74,7 +75,7 @@ WhatsApp 这类由大公司掌控的应用可能存储元数据的问题。此�
 关于各种Messenger App的对比可以参考
 [BEST Encrypted Messaging Apps Compared: Chat Privately!](https://www.youtube.com/watch?v=rPp4rQnrG44)
 
-PS: Session 甚至在iphone中默认不使用流量，需要手动打开，这个特性导致我
+附: Session 甚至在iphone中默认不使用流量，需要手动打开，这个特性导致我
 一度以为在我的iphone没法使用。
 
 ## 加密云存储
